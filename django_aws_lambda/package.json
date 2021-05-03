@@ -1,0 +1,28 @@
+{
+  "name": "django_aws_lambda",
+  "version": "1.0.0",
+  "description": "aws_lambda_django_trail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uannabi/django-lambda.git"
+  },
+  "keywords": [
+    "aws_lambda_django"
+  ],
+  "author": "zahid_uan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uannabi/django-lambda/issues"
+  },
+  "homepage": "https://github.com/uannabi/django-lambda#readme",
+  "dependencies": {
+    "serverless-dotenv-plugin": "^3.9.0",
+    "serverless-prune-plugin": "^1.5.0",
+    "serverless-python-requirements": "^5.1.1",
+    "serverless-wsgi": "^1.7.7"
+  }
+}
